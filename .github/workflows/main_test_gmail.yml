@@ -22,8 +22,5 @@ jobs:
         with:
           node-version: 20
 
-      # Étape de test d'envoi d'email
-      - name: Envoyer le mail test
-        run: node send-mail.js
-
-
+      - name: Exécuter le script d'envoi d'email
+        run: node node/node.js
