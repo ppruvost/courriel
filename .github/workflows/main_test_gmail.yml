@@ -22,5 +22,8 @@ jobs:
         with:
           node-version: 20
 
+      - name: Installer Nodemailer
+        run: npm install nodemailer
+
       - name: Exécuter le script d'envoi d'email
         run: node node/node.js
