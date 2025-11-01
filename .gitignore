@@ -1,0 +1,5 @@
+node/node_modules/
+node/.env
+python/__pycache__/
+python/token.json
+.DS_Store
