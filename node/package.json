@@ -1,0 +1,9 @@
+{
+  "name": "github-email-test",
+  "version": "1.0.0",
+  "main": "sendEmail.js",
+  "type": "module",
+  "dependencies": {
+    "nodemailer": "^6.9.8"
+  }
+}
