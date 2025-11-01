@@ -22,8 +22,8 @@ jobs:
         with:
           node-version: 20
 
-      - name: Installer Nodemailer
-        run: npm install nodemailer
+      - name: Installer les dépendances nécessaires
+        run: npm install nodemailer googleapis
 
       - name: Exécuter le script d'envoi d'email
         run: node node/node.js
