@@ -23,8 +23,7 @@ jobs:
           node-version: 20
 
       - name: Installer les dépendances
-        run: npm install
-
+       
       - name: Envoyer le mail test
         run: node send-mail.js
 
