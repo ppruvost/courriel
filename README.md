@@ -1,12 +1,7 @@
-# github-gmail-send-project
+Politique de confidentialité – Courriel Render
 
-Projet d'exemple pour **envoyer des emails via Gmail** — deux approches :
-- Node.js (Nodemailer + OAuth2)
-- Python (Gmail API + OAuth2)
+L’application Courriel Render utilise l’API Gmail uniquement pour accéder au contenu de la boîte mail de l’utilisateur dans le but de lire ou envoyer des e-mails via un serveur privé.
+Aucune donnée n’est enregistrée, partagée ni stockée sur un serveur tiers.
+L’accès OAuth 2.0 est strictement personnel et réversible à tout moment via le compte Google de l’utilisateur.
 
-Contenu :
-- node/: exemple Node.js (nodemailer + googleapis)
-- python/: exemple Python (google-api-python-client)
-- docs/: guide rapide pour créer des identifiants OAuth2 dans Google Cloud
-
-IMPORTANT: Ne commitez jamais vos `client_id`, `client_secret` ou tokens dans un dépôt public.
+Contact : lyceepro.mermoz@gmail.com
