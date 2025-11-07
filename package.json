@@ -1,0 +1,20 @@
+{
+  "name": "gmail-oauth",
+  "version": "1.0.0",
+  "description": "Authentification OAuth Gmail avec Node.js et Express, déployé sur Render.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "googleapis": "^127.0.0",
+    "open": "^9.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "ppruvost",
+  "license": "MIT"
+}
