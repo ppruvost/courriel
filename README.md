@@ -1,7 +1,7 @@
-# Gmail OAuth – Authentification avec Node.js et Express
+# Gmail OAuth – Authentification avec Node.js
 
-Ce projet permet de réaliser une authentification sécurisée via **OAuth2 Gmail**, en utilisant **Node.js**, **Express** et la bibliothèque officielle **Google APIs**.  
-L’application peut être déployée facilement sur **Render**, **Vercel**, ou tout autre service cloud compatible avec Node.js.
+Ce projet permet de réaliser une authentification sécurisée via **OAuth2 Gmail**, en utilisant **Node.js** et la bibliothèque officielle **Google APIs**.  
+L’application peut être déployée facilement sur **Render**, service cloud compatible avec Node.js.
 
 ---
 
