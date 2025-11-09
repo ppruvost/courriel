@@ -26,4 +26,4 @@ jobs:
         run: npm install nodemailer googleapis
 
       - name: Exécuter le script d'envoi d'email
-        run: node node/node.js
+        run: node index.js
