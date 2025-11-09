@@ -38,7 +38,7 @@ const oAuth2Client = new google.auth.OAuth2(
 oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 
 // ---------------- ROUTE SECURISEE /send-email ----------------
-app.post('/send-email', async (req, res) => {
+app.post('/', async (req, res) => {
   const authHeader = req.headers['authorization'];
   if (!authHeader || authHeader !== `Bearer ${RENDER_SECRET_TOKEN}`) {
     return res.status(401).send('❌ Non autorisé');
