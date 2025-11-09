@@ -1,0 +1,30 @@
+name: Envoi Email Gmail
+
+on:
+  workflow_dispatch:  # déclenchement manuel depuis GitHub Web
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Vérifier le dépôt
+        uses: actions/checkout@v3
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Installer dépendances
+        run: npm install googleapis
+
+      - name: Envoyer l'email
+        run: node send-email.js
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REDIRECT_URI: ${{ secrets.GOOGLE_REDIRECT_URI }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          GOOGLE_SENDER_EMAIL: ${{ secrets.GOOGLE_SENDER_EMAIL }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
