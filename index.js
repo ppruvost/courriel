@@ -19,7 +19,7 @@ app.use(express.json());
 
 // ---------------- CORS pour GitHub Pages ----------------
 app.use(cors({
-  origin: 'https://<ton-utilisateur>.github.io', // Remplace par ton nom GitHub
+  origin: 'https://ppruvost.github.io', // Remplace par ton nom GitHub
   methods: ['POST'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
