@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "express": "^4.19.2",
+    "cors": "^2.8.5"
     "googleapis": "^127.0.0",
     "open": "^9.1.0"
   },
