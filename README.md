@@ -17,16 +17,16 @@ L’application peut être déployée facilement sur **Render**, service cloud c
 # Structure du projet
 
 gmail-oauth/
-│
-├── .github/workflows/ → (optionnel) tests ou déploiement CI/CD
-├── documents/ → documentation technique (ex : GCP_OAuth_setup.md)
-├── .gitignore → fichiers à ignorer (node_modules, .env, etc.)
-├── LICENCE → licence MIT
-├── conditions.md → conditions d’utilisation
-├── confidentialite.md → politique de confidentialité
-├── index.js → script principal Node.js (serveur Express)
-├── package.json → dépendances et scripts
-└── README.md → ce fichier
+
+.github/workflows/ → (optionnel) tests
+documents/ → documentation technique (GCP_OAuth_setup.md)
+.gitignore → pour ignorer node_modules, .env, etc...
+LICENCE → licence MIT
+conditions.md → conditions d’utilisation
+confidentialite.md → politique de confidentialité
+index.js → script principal Node.js
+package.json → dépendances et scripts
+README.md → ce fichier
 ---
 # Installation
 
