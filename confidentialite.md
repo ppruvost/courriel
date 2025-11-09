@@ -1,6 +1,6 @@
 # Politique de confidentialité – Courriel Render
 
-L’application **Courriel Render** est développée dans un but **éducatif et pédagogique**  
+L’application **Courriel Render** est développée dans un dispositif **éducatif et pédagogique**  
 pour les élèves du **lycée professionnel Jean Mermoz de Vire (Normandie)**.
 
 ## 1. Données collectées
